@@ -1,0 +1,4 @@
+spring:
+  r2dbc:
+    url:
+      r2dbc:tc:mysql:///mydb?TC_IMAGE_TAG=9.0

@@ -1,0 +1,12 @@
+spring:
+  docker:
+    compose:
+      enabled: true
+      file: docker-compose.yml
+  r2dbc:
+    url:
+      r2dbc:mysql:///mydb
+    username:
+      bug_user
+    password:
+      ${MYSQL_PASSWORD}
